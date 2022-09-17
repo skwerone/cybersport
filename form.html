@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <div class="wrapper">
+        <form action="#" class="form">
+            <div class="form-head">
+                <a href="index.html" class="form-back"><</a>
+                <h3 class="form-title">Заявка на вступление</h3>
+            </div>
+            <div class="form-body">
+                <fieldset class="form-box">
+                    <legend class="form-legend">
+                        Ваш никнейм в реальной жизни :)
+                    </legend>
+                    <input type="text" placeholder="Имя" name="name" class="form-input">
+                    <input type="text" placeholder="Фамилия" name="surname" class="form-input">
+                </fieldset>
+                <p class="form-text">Ваш пол</p>
+                <input type="radio" class="form-radio" name="gender" id="men">
+                <label class="form-label" for="men">М</label>
+                <input type="radio" class="form-radio" name="gender" id="women">
+                <label class="form-label" for="women">Ж</label>
+                <div class="form-age">
+                    <input type="checkbox" class="form-checkbox" name="age" id="age">
+                    <label class="form-label" for="age">Мне есть 18</label>
+                </div>
+                <div class="form-disciplin">
+                    <label class="form-label">Ваша дисциплина</label>
+                    <select name="disciplin" class="form-select">
+                        <option selected value="CS:GO">CS:GO</option>
+                        <option value="Dota 2">Dota 2</option>
+                        <option value="Apex Legends">Apex Legends</option>
+                    </select>
+                </div>
+                <textarea placeholder="Дополнительная информация" name="message" id="" class="form-area">
+
+                </textarea>
+                <button type="submit" class="form-btn">Отправить заявку</button>
+            </div>
+        </form>
+    </div>
+</body>
+
+</html>

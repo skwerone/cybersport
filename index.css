@@ -1,0 +1,324 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;1,700&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: none;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: #222;
+}
+.wrapper{
+    overflow: hidden;
+    width: 100%;
+    min-height: 100vh;
+}
+.container{
+    max-width: 1000px;
+    padding: 0px 10px;
+    margin: 0 auto;
+}
+.header {
+background-color: #222;
+position: fixed;
+width: 100%;
+z-index: 100;
+box-shadow: 1px 3px 18px black;
+padding: 10px 0px;
+}
+.header-logo {
+    color: white;
+    text-decoration: none;
+}
+.header-img {
+
+}
+.header-span {
+
+}
+.menu {
+float: right;
+
+}
+.menu-item {
+    color: white;
+    text-decoration: none;
+    margin-left: 8px;
+    transition: 0.4s;
+    
+}
+.menu-item:hover{
+    color: red;
+}
+.clan{
+height: 80vh;
+background-image: url("img/apex-legends-pathfinder-robot-emoticons-saluting-futuristic.jpg");
+background-position: center;
+background-size: cover;
+background-repeat: no-repeat;
+position: relative;
+}
+.clan-content {
+position: absolute;
+top: 50%;
+left: 0;
+transform: translate(0%,-50%);
+padding-left: 23px;
+max-width: 900px;
+
+}
+.clan-title {
+font-size: 70px;
+color: #4e4e4e;
+}
+.clan-text {
+font-size: 25px;
+color: #4e4e4e;
+margin: 19px 0px;
+}
+.clan-btn {
+text-decoration: none;
+color: white;
+background: linear-gradient(45deg,#65daff,#70ffcb);
+padding: 10px 80px;
+width: fit-content;
+display: block;
+font-weight: 700;
+}
+
+.turnirs {
+    width: 100%;
+    margin: 20px;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 20px;
+    text-align: center;
+    width: 40%;
+    height: 150px;
+    
+}
+.how-we-can {
+    text-align: center;
+    padding: 50px 0px;
+}
+.how-we-can-card {
+width: 20%;
+display: inline-block;
+margin: 0px 5px ;
+vertical-align: top;
+
+}
+.how-we-can-img {
+height: 80px;
+margin-bottom: 10px;
+}
+
+.how-we-can-text {
+    color: #65daff;
+}
+.games {
+margin-bottom: 70px;
+}
+.games-container {
+    box-shadow: 0px 10px 30px rgb(60, 57, 57);
+padding: 20px 11px;
+}
+.title {
+text-align: center;
+color: #65daff;
+margin: 10px 0px;
+font-size: 35px;
+}
+.games-row {
+
+}
+.games-content {
+width: 50%;
+display: inline-block;
+vertical-align: top;
+padding-right: 5px;
+padding-left: 10px;
+}
+.games-title {
+    color: #70ffcb;
+}
+.games-line {
+    color: #70ffcb;
+    width: 100px;
+    height: 3px;
+    background-color:#70ffcb;
+    margin: 10px 0px;
+}
+.games-text {
+color: white;
+}
+.games-img {
+width: 48%;
+display: inline-block;
+padding-bottom: 30%;
+background-size: cover;
+background-position: center;
+}
+.games-img-1 {
+    background-image: url("img/csgo.jpg");
+}
+.games-img-2 {
+    background-image: url("img/dota2.jpg");
+}
+.games-img-3 {
+    background-image: url("img/apex.jpg");
+}
+.info {
+margin: 37px 0px;
+}
+.info-text {
+text-align: center;
+color: white;
+}
+.contact-section {
+
+}
+.contact-section-container {
+    box-shadow: 0px 10px 30px rgb(60, 57, 57);
+    padding: 27px;
+}
+.section-title {
+
+}
+.ds-line{
+    width: 350px;
+    height: 2px;
+    background-color: rgb(162, 161, 161);
+    margin: auto;
+}
+.conact-btn {
+background-color: turquoise;
+padding: 30px;
+margin-top: 16px;
+}
+.contact-title {
+color: white;
+font-size: 29px;
+margin: 10px;
+display: inline-block;
+width: 30%;
+}
+.contact-link {
+text-decoration: none;
+background-color: black;
+color: white;
+padding: 13px 25px;
+font-size: 13px;
+}
+.form {
+width: 80%;
+margin: auto;
+margin-top: 50px;
+box-shadow: 0px 10px 30px rgb(60, 57, 57);
+
+}
+.form-head {
+background-color: #65daff;
+position: relative;
+height: 50px;
+}
+.form-back {
+text-decoration: none;
+background-color: white;
+width: 50px;
+height: 50px;
+display: inline-block;
+font-size: 30px;
+color: black;
+text-align: center;
+line-height: 50px;
+position: absolute;
+top: 0px;
+left: 0px;
+}
+.form-title {
+color: white;
+text-align: center;
+line-height: 50px;
+}
+.form-body {
+    padding: 20px 20px;
+}
+.form-box {
+border: 2px solid white;
+padding: 20px;
+margin-bottom: 20px;
+}
+.form-legend{
+    color: white;
+}
+.form-input {
+width: 100%;
+background-color: transparent;
+border-bottom: 2px solid rgb(174, 171, 171);
+height: 34px;
+outline: none;
+}
+.form-input:focus{
+    border-bottom: 2px solid white;
+}
+
+.form-text {
+    color: white;
+    margin-bottom: 12px;
+}
+.form-radio {
+    color: white;
+    margin-bottom: 10px;
+}
+.form-label {
+    color: white;
+    margin-right: 10px;
+}
+.form-age {
+    color: white;
+}
+.form-checkbox {
+
+}
+
+.form-disciplin{
+    margin-top: 25px;
+}
+
+.form-area{
+width: 100%;
+height: 150px;
+margin-top: 20px;
+resize: none;
+background-color: transparent;
+border: 2px solid white;
+color: white;
+padding: 7px;
+}
+
+.form-btn{
+    display: block;
+    width: fit-content;
+    padding: 20px 80px;
+    margin: 30px auto;
+    border: none;
+    background: linear-gradient(45deg, #65DAFF, #70FFCB);
+    outline: none;
+    color: white;
+}
+
+
+@media(max-width:992px){
+    .title{
+        font-size: 25px;
+    }
+}
+@media(max-width:560px){
+    .how-we-can-card{
+        width: 40%;
+        margin-bottom: 10px;
+    }
+}
